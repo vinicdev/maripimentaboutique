@@ -49,6 +49,7 @@ a#menua:hover {
 
 #btn-mobile {
     display: none;
+    color: #000;
 }
 
 @media (max-width: 600px) {
