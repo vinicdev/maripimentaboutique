@@ -88,6 +88,7 @@ a#menua:hover {
     }
 
     #hamburger {
+        color: #000;
         display: block;
         border-top:  2px solid;
         width: 20px;
