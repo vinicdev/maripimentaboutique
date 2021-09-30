@@ -14,6 +14,7 @@ a {
     color: #000;
     text-decoration: none;
     font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 a#menua:hover {
@@ -33,7 +34,7 @@ a#menua:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #fab6f3;
+    background: #c0c0c0;
 }
 
 #menu {
@@ -49,7 +50,6 @@ a#menua:hover {
 
 #btn-mobile {
     display: none;
-    color: #000;
 }
 
 @media (max-width: 600px) {
@@ -59,7 +59,7 @@ a#menua:hover {
         width: 100%;
         top: 70px;
         right: 0px;
-        background: #fab6f3;
+        background: #cfcfcfd5;
         transition: .6s;
         z-index: 1000;
         height: 0;
@@ -89,7 +89,6 @@ a#menua:hover {
     }
 
     #hamburger {
-        color: #000;
         display: block;
         border-top:  2px solid;
         width: 20px;
@@ -119,4 +118,43 @@ a#menua:hover {
         top: -7px;
 
     } 
+}
+
+/* Image */
+.container {
+    font-family: 'Tangerine', cursive;
+    font-size: 90px;
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 90vh;
+    width: 100%;
+
+    /* Background */
+    background: url('/assets/img/img.png') center center / cover no-repeat;
+}
+
+.iconify {
+    font-size: 30px;
+
+    left: 50%;
+    position: absolute;
+    top: 94%;
+    transform: translate(-50%, -50%);
+
+    color: #000;
+}
+
+.iconify:hover {
+    color:#c0c0c0
+}
+
+@media (max-width: 600px) {
+    .container {
+        font-size: 55px;
+    }
 }
